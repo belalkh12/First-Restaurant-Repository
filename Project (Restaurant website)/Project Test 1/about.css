@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+body{
+    background: #fdfdfd;
+}
+.page{
+    padding-bottom: 220px;
+}
+nav{
+    display: flex;
+    background-image: url('alex-padurariu-VxtWBOQjGdI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+nav img{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+nav ul{
+    display: flex;
+    gap: 37px;
+    padding-left: 50px;
+    padding-top: 25px;
+    position: fixed;
+
+}
+nav ul li a{
+    position: relative;
+    left: 400px;
+    top: 15px;
+    color:  #fff;
+    background-clip: text;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    color: #caa581 !important;
+}
+.right__nav{
+    position: relative;
+    left: 600px;
+    top: 35px;
+}
+.right__nav i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+nav h1{
+    font-size: 70px;
+    font-family: 'PlayFair Display';
+    color: #fff;
+    position: relative;
+    top: 200px;
+    
+}
+.about-box{
+    width: 970px;
+    height: 481.03px;
+    background: #fff;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    left: 200px;
+    top: 100px;
+    bottom: 20px;
+    padding: 50px;
+    gap: 10px;
+    display: flex;
+    border-radius: 20px;
+}
+.about-box .title p{
+    font-size: 18px;
+    color: #caa581;
+
+}
+.about-box .title h1{
+    font-size: 46px;
+    font-family: 'PlayFair Display';
+}
+.about-box .text-content .text p{
+    padding-top: 40px;
+    color: #7f7f7f;
+}
+.about-box button{
+    width: 159.99px;
+    height: 50.5px;
+    background: #000000;
+    margin: 48px 0 0 ;
+    padding: 14px 37.5px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+    border: none;
+}
+.about-box button:hover{
+    background: #ffb830;
+}
+.contact__info{
+    width: 100%;
+    height: 750px;
+    background-image: url('aboutbg.jpg');
+    background-position: center;
+    background-size: cover ;
+}
+.container{
+    width: 515px;
+    height: 430px;
+    background: #fff;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container .title h3{
+    font-family: 'PlayFair Display';
+    font-weight: lighter;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.container .content p{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    color: #2C3033;
+    font-weight: lighter;
+}
+.container .info{
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #7b7b7b  !important;
+    padding-bottom: 50px;
+}
+.container .info1{
+    font-size: 15px;
+    color: #7b7b7b  !important;
+}
+.container #title{
+    font-size: 16px;
+    color: #2C3033 !important;
+}

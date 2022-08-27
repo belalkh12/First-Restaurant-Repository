@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none !important;
+    outline: none !important;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('background\ \(2\).jpg');
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.page{
+    position: relative;
+    bottom: 0 !important;
+}
+nav{
+    display: flex;
+    position: fixed;
+}
+nav img{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+nav ul{
+    display: flex;
+    gap: 37px;
+    padding-left: 50px;
+    padding-top: 25px;
+    
+
+}
+nav ul li a{
+    position: relative;
+    left: 400px;
+    top: 15px;
+    color:  #fff;
+    background-clip: text;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    color: #caa581 !important;
+}
+.right__nav{
+    position: relative;
+    left: 600px;
+    top: 35px;
+}
+.right__nav i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.content{
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+.content h5{
+    color: #caa581;
+    font-size: 18px;
+}
+.content h1{
+    color: #fff;
+    font-family: 'PlayFair Display', Times, serif;
+    font-size: 65px;
+}
+.cart{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    position: relative;
+    top: -1570px;
+    left: 1050px;
+    border-radius: 20px;
+    display: none;
+}
+.cart p{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: rgb(113, 113, 113);
+    font-size: 23px;
+}
+.cart button{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    padding: 13px 27px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+}
+.cart button:hover{
+    background: #ffb830;
+}
+.contact{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    position: relative;
+    top: -1570px;
+    left: 1700px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: left 600ms ease-in-out;
+}
+.contact h5{
+    font-size: 20px;
+}
+.contact .imgs img{
+    width: 87.31px;
+    height: 87.31px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.contact .info{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    width: 332px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.contact .information{
+    color: #8c8c9f;
+}
+.content .BookBtn{
+     background: #caa581;
+     border: none;
+     width: 211.51px;
+     height: 64px;
+     padding: 23px 60px;
+     color: #fff;
+     font-size: 15px;
+}
+.menu__section{
+    width: 100%;
+    height: 130vh;
+    background: #FFF;
+    
+}
+.menu__section p{
+    color: #caa581;
+    text-align: center;
+    padding-top: 100px;
+}
+.menu__section h1{
+    color: #212025;
+    font-family: 'PlayFair Display', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+}
+.menu__section .card-group{
+    display: flex;
+    font-family: 'PlayFair Display', Times, serif ;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.card{
+    display: flex;
+    width: 555px;
+    height: 165px;
+    border: 0.75px solid #caa581;
+    position: relative;
+    left: 200px;
+    top: 40px;
+    gap: 15px;
+    word-wrap: break-word;
+}
+.card p{
+    position: relative;
+    right: 180px;
+    bottom: 20px;
+    width: 500px !important;
+}
+.card #p1{
+    width: 500px !important;
+    position: relative;
+    bottom: 25px;
+}
+.card h3{
+    font-size: 23px;
+    font-family: 'PlayFair Display', Times, serif ;
+    position: relative;
+    left: 20px;
+    top: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}

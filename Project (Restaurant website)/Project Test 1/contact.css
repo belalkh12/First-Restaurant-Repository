@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+h1{
+    margin-bottom: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+input,
+select,
+textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 2px solid black;
+}
+select option{
+    padding: 1.4rem !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+textarea{
+    height: 6rem;
+}
+button{
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: #673de6;
+    color: #fff;
+    font-weight: 550;
+}

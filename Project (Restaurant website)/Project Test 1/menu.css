@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    font-family: sans-serif;
+}
+body{
+    background: #fff;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+}
+nav img{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+nav ul{
+    display: flex;
+    gap: 37px;
+    padding-left: 50px;
+    padding-top: 25px;
+    border-bottom: 3px solid #45405e;
+    position: relative;
+    left: 420px;
+    bottom: 50px;
+}
+nav ul li a{
+    position: relative;
+    top: 15px;
+    color:  #45405e;
+    background-clip: text;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    right: 26px;
+    top: 45px;
+}
+nav ul li a:hover{
+    color: #caa581 !important;
+}
+.header{
+    width: 1331px;
+    height: 220px;
+    background: #f9fafc;
+    position: relative;
+    left: 100px;
+    top: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    font-size: 40px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.header button{
+    width: 167.18px;
+    height: 55px !important;
+    position: relative;
+    top: 40px;
+    right: 70px;
+    background: #f5c332;
+    border: none;
+    font-size: 15px;
+}
+.header a{
+    color: #231e41;
+    font-weight: 550;
+    cursor: not-allowed;
+}
+.header a span{
+    color: #231e41;
+    opacity: 0.5;
+    cursor: pointer !important;
+    transition: all 300ms ease-in-out;
+}
+.header a span:hover{
+    opacity: 1;
+}
+.menu{
+    position: relative;
+    top: 300px;
+    left: 150px;
+    padding-bottom: 20px;
+}
+.menu .row{
+    padding-bottom: 100px;
+}
+.menu .row-title h2{
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+.menu .cards{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.menu .card{
+    width: 270px;
+    height: 270px;
+    background-image: url('images/dessert-1.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 200ms ease-in-out;
+}
+.menu .card:hover{
+    transform: scale(1.05);
+}
+.menu .row .cards #card1{
+    background-image: url('images/dessert-2.jpg');
+}
+.menu .row .cards #card2{
+    background-image: url('images/dessert-3.jpg');
+}
+.menu .row .cards #card3{
+    background-image: url('images/dessert-4.jpg');
+}
+.menu .row .cards #card4{
+    background-image: url('images/dessert-5.jpg');
+}
+
+
+
+.menu .row .cards #card5{
+    background-image: url('images/drink-2.jpg');
+}
+.menu .row .cards #card6{
+    background-image: url('images/drink-3.jpg');
+}
+.menu .row .cards #card7{
+    background-image: url('images/drink-4.jpg');
+}
+.menu .row .cards #card8{
+    background-image: url('images/drink-5.jpg');
+}
+.menu .row .cards #card9{
+    background-image: url('images/drink-1.jpg');
+}
+
+
+
+.menu .row .cards #card10{
+    background-image: url('images/MainDish-1.jpg');
+}
+.menu .row .cards #card11{
+    background-image: url('images/MainDish-2.jpg');
+}
+.menu .row .cards #card12{
+    background-image: url('images/MainDish-3.jpg');
+}
+.menu .row .cards #card13{
+    background-image: url('images/MainDish-4.jpg');
+}
+.menu .row .cards #card14{
+    background-image: url('images/MainDish-5.jpg');
+}
+.menu .row .cards #card15{
+    background-image: url('images/MainDish-6.jpg');
+}
+
+
+.card h3{
+    font-size: 25px;
+    position: relative;
+    padding-top: 150px;
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+    color: transparent;
+}
+.card:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/dessert-1.jpg') !important;
+}
+#card1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/dessert-2.jpg') !important;
+}
+#card2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/dessert-3.jpg') !important;
+}
+#card3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/dessert-4.jpg') !important;
+}
+#card4:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/dessert-5.jpg') !important;
+}
+
+
+
+
+#card5:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/drink-2.jpg') !important;
+}
+#card6:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/drink-3.jpg') !important;
+}
+#card7:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/drink-4.jpg') !important;
+}
+#card8:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/drink-5.jpg') !important;
+}
+#card9:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/drink-1.jpg') !important;
+}
+
+
+
+#card10:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/MainDish-1.jpg') !important;
+}
+#card11:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/MainDish-2.jpg') !important;
+}
+#card12:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/MainDish-3.jpg') !important;
+}
+#card13:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/MainDish-4.jpg') !important;
+}
+#card14:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/MainDish-5.jpg') !important;
+}
+#card15:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url('images/MainDish-6.jpg') !important;
+}
+.card h3:hover{
+    color: #fff;
+}
+
+.menu .sorting-btns{
+    display: flex;
+    padding-bottom: 50px;
+}
+.menu .sorting-btns .btn{
+    padding-right: 70px;
+}
+.menu button{
+    padding: 13px;
+    background: transparent;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+}
+.menu #active{
+    background: #0d6efd;
+    color: #fff;
+}
+.menu button:hover{
+    background: #0d6efd !important;
+    color: #fff !important;
+}
